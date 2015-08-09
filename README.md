@@ -1,4 +1,5 @@
-* pyBgSetter: Multi-backend (feh, habak, ...) GUI Wallpaper Setter *
+pyBgSetter: Multi-backend (feh, habak, ...) GUI Wallpaper Setter 
+=============
 
 This piece of software was announced on the Arch Linux Community
 contributions forum some time ago (see
