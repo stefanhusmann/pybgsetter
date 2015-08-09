@@ -1,0 +1,18 @@
+#!/bin/sh
+
+#for i in $(find ../src/ |grep -E ".*\.(py)$");do echo $i >> list;done
+
+#pygettext.py -a -d 'pybgsetter' -v -a -n $(cat list)
+#xgettext -L Glade -d "pybgsetter" -o ui.pot ../src/pybgsetterui.glade
+
+intltool-extract --type="gettext/glade" ../src/*.glade
+xgettext -k_ -kN_ -o pybgsetter.pot ../src/*.py ../src/*.h
+
+for langPO in *.po;
+do
+    msgmerge -U -F $langPO pybgsetter.pot
+    sed -i 's/pybgsetterui.glade.h:.*/pybgsetterui.glade/' $langPO
+done
+
+rm -f pybgsetter.pot ../src/*.h
+

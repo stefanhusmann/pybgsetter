@@ -1,0 +1,209 @@
+# PyBgSetter German translation
+# Copyright (C) 2010 Pável Varela Rodríguez
+# This file is distributed under the same license as the pyBgSetter package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-27 23:08-0500\n"
+"PO-Revision-Date: 2010-01-18 20:26-0500\n"
+"Last-Translator: Stefan Husmann <Stefan-Husmann@t-online.de>\n"
+"Language-Team: German <Stefan-Husmann@t-online.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/pybgsetter.py:73
+#, python-format
+msgid "Not a valid image file: %s"
+msgstr "Keine gültige Bilddatei: %s"
+
+#: ../src/pybgsetter.py:282
+msgid "pyBgSetter Quick Help"
+msgstr "pyBgSetter Schnellhilfe"
+
+#: ../src/pybgsetter.py:309
+msgid "About pyBgSetter"
+msgstr "Über pyBgSetter"
+
+#: ../src/pybgsetter.py:311
+#, fuzzy
+msgid ""
+"Multi-backend GUI for desktop wallpaper setting\n"
+"(Feh, Habak, Esetroot, Hsetroot)"
+msgstr ""
+"GUI zum Setzen des Bildschirmhintergrundbildes für vielerlei Backends (Feh, "
+"Habak, Esetroot, Hsetroot)"
+
+#: ../src/pybgsetter.py:331
+msgid "Select image file"
+msgstr "Wähle Bilddatei"
+
+#: ../src/pybgsetter.py:340
+msgid "Image Files"
+msgstr "Bilddateien"
+
+#: ../src/pybgsetter.py:418
+msgid "Screen"
+msgstr "Bildschirm"
+
+#: ../src/pybgsetter.py:499
+msgid "Resolution"
+msgstr "Bildauflösung"
+
+#: ../src/pybgsetter.py:502
+msgid "Format"
+msgstr "Datenformat"
+
+#: ../src/pybgsetter.py:504
+msgid "Size"
+msgstr "Größe"
+
+#: ../src/pybgsetter.py:621
+#, python-format
+msgid "You must install at least one of the following apps: %s"
+msgstr "Wenigstens eines der folgenden Programme muss installiert sein: %s"
+
+#: ../src/pybgsetter.py:640
+#, fuzzy, python-format
+msgid "pyBgSetter: Multi-backend Desktop Background Setter (v%s)"
+msgstr "pyBgSetter: Werkzeug zum Setzen des Bildschirmhintergrunds (v%s)"
+
+#: ../src/pybgsetter.py:641
+msgid "Usage:"
+msgstr "Aufruf:"
+
+#: ../src/pybgsetter.py:643
+#, python-format
+msgid "  Supported Backends: %s"
+msgstr "  Unterstützte Backends: %s"
+
+#: ../src/pybgsetter.py:644
+#, python-format
+msgid "  Supported Options:  %s"
+msgstr "  Unterstützte Optionen: %s"
+
+#: ../src/pybgsetter.py:645
+msgid ""
+"\n"
+"Example:"
+msgstr ""
+"\n"
+"Beispiel:"
+
+#: ../src/pybgsetter.py:657
+#, python-format
+msgid "Unknown or Not Installed Backend: '%s'"
+msgstr "Unbekanntes oder nicht installiertes Backend: '%s'"
+
+#: ../src/pybgsetter.py:669
+#, python-format
+msgid "Unknown Option: '%s'"
+msgstr "Unbekannte Option: '%s'"
+
+#: ../src/pybgsetter.py:680
+#, python-format
+msgid "File does not exists: '%s'"
+msgstr "Datei existiert nicht: '%s'"
+
+#: ../src/pybgsetter.py:689
+#, python-format
+msgid "File type not supported: '%s'"
+msgstr "Dateityp wird nicht unterstützt: '%s'"
+
+#: ../src/pybgsetter.py:694
+msgid "Settings:"
+msgstr "Einstellungen:"
+
+#: ../src/pybgsetter.py:695
+#, fuzzy, python-format
+msgid "  Backend: %s"
+msgstr "Backend:"
+
+#: ../src/pybgsetter.py:696
+#, python-format
+msgid "  Option: %s"
+msgstr "  Option: %s"
+
+#: ../src/pybgsetter.py:697
+#, python-format
+msgid "  Image: %s"
+msgstr "  Bilddatei: %s"
+
+#: ../src/pybgsetter.py:700
+#, python-format
+msgid "ERROR: %s"
+msgstr "FEHLER: %s"
+
+#: ../src/pybgsetterui.glade
+msgid "<i>Desktop Background Setter</i>"
+msgstr "<i>Werkzeug zum Setzen des Bildschirmhintergrunds</i>"
+
+#: ../src/pybgsetterui.glade
+msgid "About"
+msgstr "Über"
+
+#: ../src/pybgsetterui.glade
+msgid "Apply"
+msgstr "Anwenden"
+
+#: ../src/pybgsetterui.glade
+msgid "Apply And Close"
+msgstr "Anwenden und schließen"
+
+#: ../src/pybgsetterui.glade
+msgid "Backend:"
+msgstr "Backend:"
+
+#: ../src/pybgsetterui.glade
+msgid "Centered"
+msgstr "Zentriert"
+
+#: ../src/pybgsetterui.glade
+msgid "Close"
+msgstr "Schließen"
+
+#: ../src/pybgsetterui.glade
+msgid "Esetroot"
+msgstr "Esetroot"
+
+#: ../src/pybgsetterui.glade
+msgid "Feh"
+msgstr "Feh"
+
+#: ../src/pybgsetterui.glade
+msgid "Habak"
+msgstr "Habak"
+
+#: ../src/pybgsetterui.glade
+msgid "Help"
+msgstr "Hilfe"
+
+#: ../src/pybgsetterui.glade
+msgid "Hsetroot"
+msgstr "Hsetroot"
+
+#: ../src/pybgsetterui.glade
+msgid "Image to use:"
+msgstr "Zu verwendendes Bild:"
+
+#: ../src/pybgsetterui.glade
+msgid "Open"
+msgstr "Öffnen"
+
+#: ../src/pybgsetterui.glade
+msgid "Scaled"
+msgstr "Skaliert"
+
+#: ../src/pybgsetterui.glade
+msgid "Scaled and Centered"
+msgstr "Skaliert und zentriert"
+
+#: ../src/pybgsetterui.glade
+msgid "Tiled"
+msgstr "Gekachelt"
+
+#: ../src/pybgsetterui.glade
+msgid "pyBgSetter: Desktop Background Setter"
+msgstr "pyBgSetter: Werkzeug zum Setzen des Bildschirmhintergrunds"

@@ -1,0 +1,10 @@
+#!/bin/sh
+
+for langPO in *.po;
+do
+    mkdir -p ./i18n/$(basename $langPO ".po")/LC_MESSAGES/
+    msgfmt.py -o ./i18n/$(basename $langPO ".po")/LC_MESSAGES/pybgsetter.mo $langPO
+done
+
+rm -f *~
+

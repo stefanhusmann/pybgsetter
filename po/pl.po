@@ -1,0 +1,208 @@
+# PyBgSetter Czech translation
+# Copyright (C) 2010 Jan Dlabal
+# This file is distributed under the same license as the svcm package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-27 23:08-0500\n"
+"PO-Revision-Date: 2010-01-20 17:52-0500\n"
+"Last-Translator: Jan Dlabal <dlabaljan@gmail.com>\n"
+"Language-Team: Polish <dlabaljan@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#: ../src/pybgsetter.py:73
+#, python-format
+msgid "Not a valid image file: %s"
+msgstr ""
+
+#: ../src/pybgsetter.py:282
+msgid "pyBgSetter Quick Help"
+msgstr "Szybka Pomoc pyBgSettera"
+
+#: ../src/pybgsetter.py:309
+msgid "About pyBgSetter"
+msgstr "O aplikacji pyBgSetter"
+
+#: ../src/pybgsetter.py:311
+#, fuzzy
+msgid ""
+"Multi-backend GUI for desktop wallpaper setting\n"
+"(Feh, Habak, Esetroot, Hsetroot)"
+msgstr ""
+"Multi-backendowa aplikacja do ustawienia tła pulpitu\n"
+"(Feh i Habak)"
+
+#: ../src/pybgsetter.py:331
+msgid "Select image file"
+msgstr "Proszę selekcjonować obraz"
+
+#: ../src/pybgsetter.py:340
+msgid "Image Files"
+msgstr ""
+
+#: ../src/pybgsetter.py:418
+msgid "Screen"
+msgstr "Ekran"
+
+#: ../src/pybgsetter.py:499
+msgid "Resolution"
+msgstr "Rozdzielczość"
+
+#: ../src/pybgsetter.py:502
+msgid "Format"
+msgstr "Format"
+
+#: ../src/pybgsetter.py:504
+msgid "Size"
+msgstr "Rozmiar"
+
+#: ../src/pybgsetter.py:621
+#, python-format
+msgid "You must install at least one of the following apps: %s"
+msgstr "Proszę zainstalować przynajmniej jeden z tych programów: %s"
+
+#: ../src/pybgsetter.py:640
+#, fuzzy, python-format
+msgid "pyBgSetter: Multi-backend Desktop Background Setter (v%s)"
+msgstr "pyBgSetter: Ustawienie tła pulpitu"
+
+#: ../src/pybgsetter.py:641
+msgid "Usage:"
+msgstr ""
+
+#: ../src/pybgsetter.py:643
+#, python-format
+msgid "  Supported Backends: %s"
+msgstr ""
+
+#: ../src/pybgsetter.py:644
+#, python-format
+msgid "  Supported Options:  %s"
+msgstr ""
+
+#: ../src/pybgsetter.py:645
+msgid ""
+"\n"
+"Example:"
+msgstr ""
+
+#: ../src/pybgsetter.py:657
+#, python-format
+msgid "Unknown or Not Installed Backend: '%s'"
+msgstr ""
+
+#: ../src/pybgsetter.py:669
+#, python-format
+msgid "Unknown Option: '%s'"
+msgstr ""
+
+#: ../src/pybgsetter.py:680
+#, python-format
+msgid "File does not exists: '%s'"
+msgstr ""
+
+#: ../src/pybgsetter.py:689
+#, python-format
+msgid "File type not supported: '%s'"
+msgstr ""
+
+#: ../src/pybgsetter.py:694
+msgid "Settings:"
+msgstr ""
+
+#: ../src/pybgsetter.py:695
+#, fuzzy, python-format
+msgid "  Backend: %s"
+msgstr "Backend:"
+
+#: ../src/pybgsetter.py:696
+#, python-format
+msgid "  Option: %s"
+msgstr ""
+
+#: ../src/pybgsetter.py:697
+#, python-format
+msgid "  Image: %s"
+msgstr ""
+
+#: ../src/pybgsetter.py:700
+#, python-format
+msgid "ERROR: %s"
+msgstr ""
+
+#: ../src/pybgsetterui.glade
+msgid "<i>Desktop Background Setter</i>"
+msgstr "<i>Ustawienie tła pulpitu</i>"
+
+#: ../src/pybgsetterui.glade
+msgid "About"
+msgstr "O programie"
+
+#: ../src/pybgsetterui.glade
+msgid "Apply"
+msgstr "Użyć"
+
+#: ../src/pybgsetterui.glade
+msgid "Apply And Close"
+msgstr "Użyć i zamknąć"
+
+#: ../src/pybgsetterui.glade
+msgid "Backend:"
+msgstr "Backend:"
+
+#: ../src/pybgsetterui.glade
+msgid "Centered"
+msgstr "Na środek"
+
+#: ../src/pybgsetterui.glade
+msgid "Close"
+msgstr "Zamknąć"
+
+#: ../src/pybgsetterui.glade
+msgid "Esetroot"
+msgstr ""
+
+#: ../src/pybgsetterui.glade
+msgid "Feh"
+msgstr "Feh"
+
+#: ../src/pybgsetterui.glade
+msgid "Habak"
+msgstr "Habak"
+
+#: ../src/pybgsetterui.glade
+msgid "Help"
+msgstr "Pomoc"
+
+#: ../src/pybgsetterui.glade
+msgid "Hsetroot"
+msgstr ""
+
+#: ../src/pybgsetterui.glade
+msgid "Image to use:"
+msgstr "Obraz do użycia:"
+
+#: ../src/pybgsetterui.glade
+msgid "Open"
+msgstr "Otworzyć"
+
+#: ../src/pybgsetterui.glade
+msgid "Scaled"
+msgstr "Przeskalować"
+
+#: ../src/pybgsetterui.glade
+msgid "Scaled and Centered"
+msgstr "Przeskalować na środek"
+
+#: ../src/pybgsetterui.glade
+msgid "Tiled"
+msgstr "Mozaika"
+
+#: ../src/pybgsetterui.glade
+msgid "pyBgSetter: Desktop Background Setter"
+msgstr "pyBgSetter: Ustawienie tła pulpitu"

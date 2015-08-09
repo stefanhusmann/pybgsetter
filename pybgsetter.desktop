@@ -1,0 +1,26 @@
+
+[Desktop Entry]
+Encoding=UTF-8
+GenericName=Desktop Wallpaper Setter
+Name=pyBgSetter: Desktop Background Setter
+Name[en]=pyBgSetter: Desktop Background Setter
+Name[es]=pyBgSetter: Configurar papel tapiz
+Name[fr]=pyBgSetter: Changement de fond d'écran
+Name[cs]=pyBgSetter: Nastavení pozadí plochy
+Name[pl]=pyBgSetter: Ustawienie tła pulpitu
+Name[de]=pyBgSetter: Werkzeug zum Setzen des Bildschirmhintergrunds
+Comment=pyBgSetter: Desktop Background Setter
+Comment[en]=pyBgSetter: Desktop Background Setter
+Comment[es]=pyBgSetter: Configurar papel tapiz
+Comment[fr]=pyBgSetter: Changement de fond d'écran
+Comment[cs]=pyBgSetter: Nastavení pozadí plochy
+Comment[pl]=pyBgSetter: Ustawienie tła pulpitu
+Comment[de]=pyBgSetter: Werkzeug zum Setzen des Bildschirmhintergrunds
+Exec=pybgsetter
+Icon=preferences-desktop-wallpaper
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;Settings;DesktopSettings;
+NotShowIn=GNOME;XFCE;KDE;
+

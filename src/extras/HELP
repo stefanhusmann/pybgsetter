@@ -1,0 +1,37 @@
+
+<big><b>pyBgSetter Quick Help</b></big>
+
+<b><i>Restoring wallpaper at login:</i></b>
+ If you are using Feh as backend, you could keep executing:
+ <b>eval $(cat ~/.fehbg)</b>
+ as usual.
+ 
+ My recommendation is to change the Feh-dependant command for the
+ new (and backend agnostic):
+ <b>eval $(cat ~/.bgrc)</b>
+ which does the same as the former, but works for any backend you're
+ using (and any future supported backends).
+
+
+<b><i>Currently supported backends:</i></b>
+ - Hsetroot
+ - Esetroot
+ - Habak
+ - Feh
+
+
+<b><i>Thanks to:</i></b>
+Python			<span foreground="blue" underline="low">www.python.org</span>
+GTK				<span foreground="blue" underline="low">www.gtk.org</span>
+PyGTK			<span foreground="blue" underline="low">www.pygtk.org</span>
+Scribes Editor		<span foreground="blue" underline="low">scribes.sourceforge.net</span>
+
+Hsetroot			<span foreground="blue" underline="low">www.thegraveyard.org/hsetroot.php</span>
+Esetroot			<span foreground="blue" underline="low">www.jnrowe.ukfsn.org/projects/esetroot.html</span>
+Habak			<span foreground="blue" underline="low">www.fvwm-crystal.org</span>
+Feh				<span foreground="blue" underline="low">www.linuxbrit.co.uk/feh</span>
+
+
+<b><i>Contact:</i></b>
+Pável Varela Rodríguez  <span foreground="blue" underline="low">neonskull@gmail.com</span>
+

@@ -1,0 +1,211 @@
+# PyBgSetter Spanish translation
+# Copyright (C) 2010 Pável Varela Rodríguez
+# This file is distributed under the same license as the pyBgSetter package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-01-27 23:08-0500\n"
+"PO-Revision-Date: 2007-10-26 10:51+CDT\n"
+"Last-Translator: Pável Varela Rodríguez <neonskull@gmail.com>\n"
+"Language-Team: Spanish <neonskull@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#: ../src/pybgsetter.py:73
+#, python-format
+msgid "Not a valid image file: %s"
+msgstr "No es un archivo de imagen válido: %s"
+
+#: ../src/pybgsetter.py:282
+msgid "pyBgSetter Quick Help"
+msgstr "Ayuda Rápida de pyBgSetter"
+
+#: ../src/pybgsetter.py:309
+msgid "About pyBgSetter"
+msgstr "Acerca de pyBgSetter"
+
+#: ../src/pybgsetter.py:311
+#, fuzzy
+msgid ""
+"Multi-backend GUI for desktop wallpaper setting\n"
+"(Feh, Habak, Esetroot, Hsetroot)"
+msgstr ""
+"Multi-backend GUI para configurar el papel tapiz del escritorio\n"
+"(Feh, Habak, Esetroot, Hsetroot)"
+
+#: ../src/pybgsetter.py:331
+msgid "Select image file"
+msgstr "Seleccionar imagen"
+
+#: ../src/pybgsetter.py:340
+msgid "Image Files"
+msgstr "Archivos de Imagen"
+
+#: ../src/pybgsetter.py:418
+msgid "Screen"
+msgstr "Pantalla"
+
+#: ../src/pybgsetter.py:499
+msgid "Resolution"
+msgstr "Resolución"
+
+#: ../src/pybgsetter.py:502
+msgid "Format"
+msgstr "Formato"
+
+#: ../src/pybgsetter.py:504
+msgid "Size"
+msgstr "Tamaño"
+
+#: ../src/pybgsetter.py:621
+#, python-format
+msgid "You must install at least one of the following apps: %s"
+msgstr "Necesita instalar al menos una de las siguintes aplicaciones: %s"
+
+#: ../src/pybgsetter.py:640
+#, fuzzy, python-format
+msgid "pyBgSetter: Multi-backend Desktop Background Setter (v%s)"
+msgstr ""
+"pyBgSetter: Utilidad  multi-backend de Configuración del Papel Tapiz (v%s)"
+
+#: ../src/pybgsetter.py:641
+msgid "Usage:"
+msgstr "Modo de utilización:"
+
+#: ../src/pybgsetter.py:643
+#, python-format
+msgid "  Supported Backends: %s"
+msgstr "  Backends Soportados: %s"
+
+#: ../src/pybgsetter.py:644
+#, python-format
+msgid "  Supported Options:  %s"
+msgstr "  Opciones Soportadas: %s"
+
+#: ../src/pybgsetter.py:645
+msgid ""
+"\n"
+"Example:"
+msgstr ""
+"\n"
+"Ejemplo:"
+
+#: ../src/pybgsetter.py:657
+#, python-format
+msgid "Unknown or Not Installed Backend: '%s'"
+msgstr "Backend Desconocido o no Instalado: '%s'"
+
+#: ../src/pybgsetter.py:669
+#, python-format
+msgid "Unknown Option: '%s'"
+msgstr "Opción Desconocida: '%s'"
+
+#: ../src/pybgsetter.py:680
+#, python-format
+msgid "File does not exists: '%s'"
+msgstr "El archivo no existe: '%s'"
+
+#: ../src/pybgsetter.py:689
+#, python-format
+msgid "File type not supported: '%s'"
+msgstr "Tipo de archivo no soportado: '%s'"
+
+#: ../src/pybgsetter.py:694
+msgid "Settings:"
+msgstr "Configuración:"
+
+#: ../src/pybgsetter.py:695
+#, fuzzy, python-format
+msgid "  Backend: %s"
+msgstr "  Backend: %s"
+
+#: ../src/pybgsetter.py:696
+#, python-format
+msgid "  Option: %s"
+msgstr "  Opción: %s"
+
+#: ../src/pybgsetter.py:697
+#, fuzzy, python-format
+msgid "  Image: %s"
+msgstr "  Imagen: %s"
+
+#: ../src/pybgsetter.py:700
+#, python-format
+msgid "ERROR: %s"
+msgstr "ERROR: %s"
+
+#: ../src/pybgsetterui.glade
+msgid "<i>Desktop Background Setter</i>"
+msgstr "<i>Utilidad de Configuración del Papel Tapiz</i>"
+
+#: ../src/pybgsetterui.glade
+msgid "About"
+msgstr "Acerca de"
+
+#: ../src/pybgsetterui.glade
+msgid "Apply"
+msgstr "Aplicar"
+
+#: ../src/pybgsetterui.glade
+msgid "Apply And Close"
+msgstr "Aplicar y Salir"
+
+#: ../src/pybgsetterui.glade
+msgid "Backend:"
+msgstr "Backend"
+
+#: ../src/pybgsetterui.glade
+msgid "Centered"
+msgstr "Centrado"
+
+#: ../src/pybgsetterui.glade
+msgid "Close"
+msgstr "Salir"
+
+#: ../src/pybgsetterui.glade
+msgid "Esetroot"
+msgstr "Esetroot"
+
+#: ../src/pybgsetterui.glade
+msgid "Feh"
+msgstr "Feh"
+
+#: ../src/pybgsetterui.glade
+msgid "Habak"
+msgstr "Habak"
+
+#: ../src/pybgsetterui.glade
+msgid "Help"
+msgstr "Ayuda"
+
+#: ../src/pybgsetterui.glade
+msgid "Hsetroot"
+msgstr "Hsetroot"
+
+#: ../src/pybgsetterui.glade
+msgid "Image to use:"
+msgstr "Imagen a usar"
+
+#: ../src/pybgsetterui.glade
+msgid "Open"
+msgstr "Buscar"
+
+#: ../src/pybgsetterui.glade
+msgid "Scaled"
+msgstr "Escalado"
+
+#: ../src/pybgsetterui.glade
+msgid "Scaled and Centered"
+msgstr "Escalado y Centrado"
+
+#: ../src/pybgsetterui.glade
+msgid "Tiled"
+msgstr "Mosaico"
+
+#: ../src/pybgsetterui.glade
+msgid "pyBgSetter: Desktop Background Setter"
+msgstr "pyBgSetter: Utilidad de Configuración del Papel Tapiz"
