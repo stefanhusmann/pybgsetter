@@ -17,25 +17,25 @@
 
 
 ROOT=""
-[[ -n "$1" ]] && ROOT=$1
+[ -n "$1" ] && ROOT=$1
 
 # Scripts
-install -Dm755 ./src/pybgsetter.py $ROOT/usr/bin/pybgsetter || exit 1
+install -Dm755 ./src/pybgsetter.py "$ROOT"/usr/bin/pybgsetter || exit 1
 
 # UI
-install -Dm644 ./src/pybgsetterui.glade $ROOT/usr/share/pybgsetter/pybgsetterui.glade || exit 1
+install -Dm644 ./src/pybgsetterui.glade "$ROOT"/usr/share/pybgsetter/pybgsetterui.glade || exit 1
 
 # Extras
-install -Dm644 ./src/extras/LICENSE $ROOT/usr/share/pybgsetter/extras/LICENSE || exit 1
-install -Dm644 ./src/extras/HELP $ROOT/usr/share/pybgsetter/extras/HELP || exit 1
+install -Dm644 ./src/extras/LICENSE "$ROOT"/usr/share/pybgsetter/extras/LICENSE || exit 1
+install -Dm644 ./src/extras/HELP "$ROOT"/usr/share/pybgsetter/extras/HELP || exit 1
 
 # Translations
-install -Dm644 ./po/i18n/es/LC_MESSAGES/pybgsetter.mo $ROOT/usr/share/locale/es/LC_MESSAGES/pybgsetter.mo || exit 1
-install -Dm644 ./po/i18n/cs/LC_MESSAGES/pybgsetter.mo $ROOT/usr/share/locale/cs/LC_MESSAGES/pybgsetter.mo || exit 1
-install -Dm644 ./po/i18n/fr/LC_MESSAGES/pybgsetter.mo $ROOT/usr/share/locale/fr/LC_MESSAGES/pybgsetter.mo || exit 1
-install -Dm644 ./po/i18n/pl/LC_MESSAGES/pybgsetter.mo $ROOT/usr/share/locale/pl/LC_MESSAGES/pybgsetter.mo || exit 1
-install -Dm644 ./po/i18n/de/LC_MESSAGES/pybgsetter.mo $ROOT/usr/share/locale/de/LC_MESSAGES/pybgsetter.mo || exit 1
+install -Dm644 ./po/i18n/es/LC_MESSAGES/pybgsetter.mo "$ROOT"/usr/share/locale/es/LC_MESSAGES/pybgsetter.mo || exit 1
+install -Dm644 ./po/i18n/cs/LC_MESSAGES/pybgsetter.mo "$ROOT"/usr/share/locale/cs/LC_MESSAGES/pybgsetter.mo || exit 1
+install -Dm644 ./po/i18n/fr/LC_MESSAGES/pybgsetter.mo "$ROOT"/usr/share/locale/fr/LC_MESSAGES/pybgsetter.mo || exit 1
+install -Dm644 ./po/i18n/pl/LC_MESSAGES/pybgsetter.mo "$ROOT"/usr/share/locale/pl/LC_MESSAGES/pybgsetter.mo || exit 1
+install -Dm644 ./po/i18n/de/LC_MESSAGES/pybgsetter.mo "$ROOT"/usr/share/locale/de/LC_MESSAGES/pybgsetter.mo || exit 1
 
 # .desktop file
-install -Dm644 ./pybgsetter.desktop $ROOT/usr/share/applications/pybgsetter.desktop || exit 1
+install -Dm644 ./pybgsetter.desktop "$ROOT"/usr/share/applications/pybgsetter.desktop || exit 1
 
